@@ -42,7 +42,7 @@ def animate(i):
     ax1.get_yaxis().get_major_formatter().set_useOffset(False)
 
 #CARRY OUT THE ANIMATION
-ani = animation.FuncAnimation(fig, animate, interval=1000)
+ani = animation.FuncAnimation(fig, animate, interval=20000)
 plt.show()
 #print(type(datetime.datetime.strptime("2017-12-21 22:04:21.404122", "%Y-%m-%d %H:%M:%S.%f")))
 
