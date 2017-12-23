@@ -23,6 +23,12 @@ class Application:
             dolar = get_value("USD", "1")
             real = get_value("BRL", "1")
 
+            print(10*"=")
+            print("EURO", euro)
+            print("BRL", real)
+            print("USD",dolar)
+            print(10 * "=")
+
             #OPENING FILES AND SAVING INFO TO THEM
             f_euro = open("btc_to_euro.txt", 'a')
             f_euro.write(str(datetime.datetime.now()) + "----" + euro + "\n")
